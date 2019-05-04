@@ -96,7 +96,7 @@ void InitGL ( GLvoid )     // Inicializamos parametros
 	/* setup blending */
 	glEnable(GL_BLEND);			// Turn Blending On
     
-	esfera.LoadTGA("9/carita.tga");
+	//esfera.LoadTGA("9/carita.tga");
 	esfera.BuildGLTexture();
 	esfera.ReleaseImage();
 
